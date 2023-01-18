@@ -1,0 +1,169 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+html,
+body {
+    margin: 3px 120px;
+    font-family: 'Arima', cursive;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 443px;
+    /* border-radius: 10px; */
+    padding: 50px 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    background: url("./images/Warri-Ecotourism-Park.jpg");
+    background-size: cover;
+    color: black;
+    padding: 0px 250px;
+
+
+}
+
+.heading {
+    /* border: 1px solid red; */
+    margin: 10px;
+    color: whitesmoke;
+    /* font-size: 18px; */
+    font-weight: bold;
+    background: #457B9D;
+    border-radius: 10px;
+    padding: 0px 5px;
+
+}
+
+.heading-two {
+
+    /* margin: 5px 50px 50px 10px; */
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1D3557;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+img:hover {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.activities-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #F1FAEE;
+    margin: 0px 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 294px;
+    border-radius: 10px;
+    border-bottom: 10px solid #1D3557;
+    background: #A8DADC;
+    margin: 10px 220px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-img {
+    width: 180px;
+    height: 248px;
+    border-radius: 10%;
+}
+
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 5px;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+    margin: 5px;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+}
